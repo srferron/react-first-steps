@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
-//import ExampleProps from "./ExampleProps";
-import Contador from "./Contador";
+import ButtomAlertClassBind from "./ButtomAlertClassBind";
+import ButtomAlertClass from "./ButtomAlertClass";
+import ButtomAlert from "./ButtomAlert";
 
 function App() {
   return (
     <div className="App">
       {/*Comentario en JSX*/}
-      <Contador/>
+      <ButtomAlert/>
+
+      <ButtomAlertClass/>
+      <ButtomAlertClassBind/>
     </div>
   );
 }
